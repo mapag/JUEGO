@@ -8,10 +8,10 @@
     .search-form-area #search {
         width: 450px;
     }
-    .hero-slides .owl-next {
+    .slides-automatico .owl-next {
         right: 20px;
     }
-    .hero-slides .owl-prev {
+    .slides-automatico .owl-prev {
         left: 20px;
     }
     .workflow-slides-area {
@@ -56,10 +56,10 @@
     .single-hero-slide {
         height: 900px;
     }
-    .hero-slides .owl-next {
+    .slides-automatico .owl-next {
         right: 5px;
     }
-    .hero-slides .owl-prev {
+    .slides-automatico .owl-prev {
         left: 5px;
     }
     .clients-logo-area > a > img {
@@ -134,10 +134,10 @@
     .single-hero-slide {
         height: 600px;
     }
-    .hero-slides .owl-next {
+    .slides-automatico .owl-next {
         right: 5px;
     }
-    .hero-slides .owl-prev {
+    .slides-automatico .owl-prev {
         left: 5px;
     }
     .search-form-area #search {

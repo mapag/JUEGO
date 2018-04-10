@@ -219,7 +219,6 @@ img {
 .matilau-preloader {
     overflow: hidden;
     animation: 3000ms linear 0s normal none infinite running matilau-preloader;
-    animation: 3000ms linear 0s normal none infinite running matilau-preloader;
     background-color: transparent;
     border-color: darkorange darkorange black black;
     border-radius: 50%;
@@ -453,19 +452,20 @@ img {
 .welcome_area {
     position: relative;
     z-index: 2;
-    height: 1200px;
+    margin-top: 0;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-.hero-slides {
+.slides-automatico, .slides-porClick {
     position: relative;
     z-index: 2;
 }
 
 .single-hero-slide {
-    height: 1200px;
+    height: auto;
     width: 100%;
     position: relative;
     z-index: 1;
@@ -489,8 +489,10 @@ img {
     font-weight: 400;
 }
 
-.hero-slides .owl-prev,
-.hero-slides .owl-next {
+.slides-automatico .owl-prev,
+.slides-automatico .owl-next,
+.slides-porClick .owl-prev,
+.slides-porClick .owl-next {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -506,14 +508,16 @@ img {
     transition-duration: 500ms;
 }
 
-.hero-slides .owl-next {
+.slides-automatico .owl-next, .slides-porClick .owl-next {
     left: auto;
     right: 50px;
 }
 
-.hero-slides .owl-prev:hover,
-.hero-slides .owl-next:hover {
-    background-color: #4a7aec;
+.slides-automatico .owl-prev:hover,
+.slides-automatico .owl-next:hover,
+.slides-porClick .owl-prev:hover,
+.slides-porClick .owl-next:hover{
+    background: radial-gradient(darkorange, black) ;
 }
 
 /* -------------------------
@@ -990,7 +994,7 @@ span.accor-open {
 -------------------- */
 
 .matilau-breadcumb-area {
-    height: 500px;
+    height: auto;
     width: 100%;
     position: relative;
     z-index: 1;

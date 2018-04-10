@@ -7,12 +7,12 @@ $(".matilau-cabecera").append(
                                     "<ul class='navbar-nav animated' id='nav'>"+
                                         "<li class='nav-item active'><a class='nav-link' href='index.html'>Inicio</a></li>"+
                                         "<li class='nav-item dropdown'>"+
-                                            "<a class='nav-link dropdown-toggle' href='#' id='matilauDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Lore</a>"+
+                                            "<a class='nav-link dropdown-toggle' href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Lore</a>"+
                                             "<div class='dropdown-menu matilauDropdown'>"+
-                                                "<a class='dropdown-item' href='prologo.html'>Prólogo</a>"+
-                                                "<div class='dropdown-divider'></div>"+
-                                                "<a class='dropdown-item' href='#'>Los Entes</a>"+
+                                                "<a class='dropdown-item' href='Los-Entes.html'>Los Entes</a>"+
                                                 "<a class='dropdown-item' href='#'>Los Vivos</a>"+
+                                                "<a class='dropdown-item' href='#'>Prólogo</a>"+
+                                                "<div class='dropdown-divider'></div>"+
                                                 "<a class='dropdown-item' href='#'>História</a>"+
                                             "</div>"+
                                         "</li>"+
@@ -43,11 +43,24 @@ $(".matilau-pie").append(
     'use strict';
 
     if ($.fn.owlCarousel) {
-        $(".hero-slides").owlCarousel({
+        $(".slides-automatico").owlCarousel({
             items: 1,
             loop: true,
             autoplay: true,
-            smartSpeed: 800,
+            smartSpeed: 2000,
+            margin: 0,
+            dots: false,
+            nav: true,
+            navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>']
+        });
+    }
+
+    if ($.fn.owlCarousel) {
+        $(".slides-porClick").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: false,
+            smartSpeed: 2000,
             margin: 0,
             dots: false,
             nav: true,
