@@ -27,27 +27,18 @@
     padding: 0;
 }
 
-body,
-html {
+body, html {
     font-family: 'Roboto', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #404551;
+    color: silver;
     line-height: 1.2;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
+a, a:hover, a:focus, a:active {
     font-weight: 700;
     text-decoration: none;
     -webkit-transition-duration: 500ms;
@@ -60,7 +51,7 @@ li {
 
 p {
     font-family: 'Roboto', sans-serif;
-    color: #abadbe;
+    color: silver;
     font-size: 15px;
     font-weight: 500;
     margin-top: 0;
@@ -78,131 +69,9 @@ img {
     height: auto;
 }
 
-.section_padding_100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.section_padding_100_0 {
-    padding-top: 100px;
-    padding-bottom: 0;
-}
-
-.section_padding_100_50 {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-.section_padding_100_70 {
-    padding-top: 100px;
-    padding-bottom: 70px;
-}
-
-.section_padding_50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.section_padding_50_20 {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-.section_padding_150 {
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
-
-.section_padding_200 {
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-.section_padding_0_100 {
-    padding-top: 0;
-    padding-bottom: 100px;
-}
-
-.section_padding_70 {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.section_padding_0_50 {
-    padding-top: 0;
-    padding-bottom: 50px;
-}
-
-.mt-15 {
-    margin-top: 15px;
-}
-
-.mt-30 {
-    margin-top: 30px;
-}
-
-.mt-40 {
-    margin-top: 40px;
-}
-
-.mt-50 {
-    margin-top: 50px;
-}
-
-.mt-100 {
-    margin-top: 100px;
-}
-
-.mt-150 {
-    margin-top: 150px;
-}
-
-.mr-15 {
-    margin-right: 15px;
-}
-
-.mr-30 {
-    margin-right: 30px;
-}
-
-.mr-50 {
-    margin-right: 50px;
-}
-
-.mr-100 {
-    margin-right: 100px;
-}
-
-.mb-15 {
-    margin-bottom: 15px;
-}
-
-.mb-30 {
-    margin-bottom: 30px;
-}
-
-.mb-50 {
-    margin-bottom: 50px;
-}
-
-.mb-100 {
-    margin-bottom: 100px;
-}
-
-.ml-15 {
-    margin-left: 15px;
-}
-
-.ml-30 {
-    margin-left: 30px;
-}
-
-.ml-50 {
-    margin-left: 50px;
-}
-
-.ml-100 {
-    margin-left: 100px;
+.fondo-1{
+    background-image: url("../img/Fondo_1.png"); 
+    background-size: 100% 100%;
 }
 
 #preloader {
@@ -230,17 +99,6 @@ img {
     top: calc(50% - 25px);
     width: 50px;
     z-index: 9;
-}
-
-@-webkit-keyframes matilau-preloader {
-    0% {
-        transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
 }
 
 @keyframes matilau-preloader {
@@ -284,29 +142,39 @@ img {
 }
 
 .section-heading {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
-.section-heading > p {
+.section-heading p {
     font-weight: 700;
-    color: #bec0cc;
-    font-size: 12px;
+    color: silver;
+    font-size: 30px;
     margin-bottom: 10px;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
-.section-heading > h2 {
-    font-size: 40px;
-    margin: 0;
+.section-heading h2 {
+    font-size: 50px;
     font-weight: 900;
+    
 }
 
 .section-heading > h5 {
-    font-size: 22px;
-    color: #abadbe;
+    font-size: 25px;
+    color: silver;
     line-height: 1.8;
     font-weight: 500;
+}
+
+.section-centrado {
+    text-align: center;
+    text-shadow: 1px 1px 3px orange;
+}
+
+.section-centrado p{
+    font-size: 20px;
+    color: silver;
+    font-weight: 600;
 }
 
 .matilau-btn {
@@ -459,7 +327,7 @@ img {
     background-position: center center;
 }
 
-.slides-automatico, .slides-porClick {
+.slides-automatico, .slides-historia {
     position: relative;
     z-index: 2;
 }
@@ -473,14 +341,16 @@ img {
 
 .hero-slide-content h2 {
     font-size: 60px;
-    color: #fff;
+    color: silver;
     line-height: 1.8;
+    text-shadow: 1px 1px 3px orange;
 }
 
 .hero-slide-content h4 {
-    color: #fff;
+    color: silver;
     font-weight: 400;
     margin-bottom: 0;
+    text-shadow: 1px 1px 3px orange;
 }
 
 .hero-slide-content .slide-img {
@@ -491,8 +361,8 @@ img {
 
 .slides-automatico .owl-prev,
 .slides-automatico .owl-next,
-.slides-porClick .owl-prev,
-.slides-porClick .owl-next {
+.slides-historia .owl-prev,
+.slides-historia .owl-next {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -508,15 +378,15 @@ img {
     transition-duration: 500ms;
 }
 
-.slides-automatico .owl-next, .slides-porClick .owl-next {
+.slides-automatico .owl-next, .slides-historia .owl-next {
     left: auto;
     right: 50px;
 }
 
 .slides-automatico .owl-prev:hover,
 .slides-automatico .owl-next:hover,
-.slides-porClick .owl-prev:hover,
-.slides-porClick .owl-next:hover{
+.slides-historia .owl-prev:hover,
+.slides-historia .owl-next:hover{
     background: radial-gradient(darkorange, black) ;
 }
 
@@ -598,10 +468,6 @@ img {
 
 .matilau-features-area .section-heading {
     margin-bottom: 60px;
-}
-
-.matilau-features-area .section-heading h2 {
-    color: #fff;
 }
 
 .barfiller {
@@ -826,12 +692,6 @@ img {
     margin-bottom: 0;
 }
 
-.cta-content .section-heading h2 {
-    margin-bottom: 40px;
-    color: #fff;
-    font-size: 44px;
-}
-
 /* -------------------------
 :: 11.0 FAQ Area
 ------------------------- */
@@ -989,37 +849,7 @@ span.accor-open {
     height: 60px;
 }
 
-/* --------------------
-:: 13.0 Breadcumb CSS
--------------------- */
 
-.matilau-breadcumb-area {
-    height: auto;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
-
-.bradcumbContent h2 {
-    color: #fff;
-    font-size: 60px;
-}
-
-.bradcumbContent .breadcrumb {
-    padding: 0;
-    background-color: transparent;
-    border-radius: 0;
-    margin-top: 10px;
-}
-
-.bradcumbContent .breadcrumb-item a,
-.bradcumbContent .breadcrumb-item {
-    color: #fff;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
 
 /* -----------------------
 :: 14.0 About Us CSS
@@ -1052,10 +882,6 @@ span.accor-open {
 
 .few-words-text .section-heading {
     margin-bottom: 50px;
-}
-
-.few-words-text .section-heading h2 {
-    color: #fff;
 }
 
 .few-words-text > p {
@@ -1277,9 +1103,6 @@ span.accor-open {
     z-index: 1;
 }
 
-.matilau-clients-testimonials-area .section-heading h2 {
-    color: #fff;
-}
 
 .testimonial-content span {
     font-size: 60px;

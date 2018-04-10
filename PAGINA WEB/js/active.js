@@ -56,9 +56,9 @@ $(".matilau-pie").append(
     }
 
     if ($.fn.owlCarousel) {
-        $(".slides-porClick").owlCarousel({
+        $(".slides-historia").owlCarousel({
             items: 1,
-            loop: true,
+            loop: false,
             autoplay: false,
             smartSpeed: 2000,
             margin: 0,
