@@ -9,10 +9,10 @@ $(".matilau-cabecera").append(
                                         "<li class='nav-item dropdown'>"+
                                             "<a class='nav-link dropdown-toggle' href='#' id='matilauDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Lore</a>"+
                                             "<div class='dropdown-menu matilauDropdown'>"+
+                                                "<a class='dropdown-item' href='prologo.html'>Prólogo</a>"+
+                                                "<div class='dropdown-divider'></div>"+
                                                 "<a class='dropdown-item' href='#'>Los Entes</a>"+
                                                 "<a class='dropdown-item' href='#'>Los Vivos</a>"+
-                                                "<a class='dropdown-item' href='#'>Prologo</a>"+
-                                                "<div class='dropdown-divider'></div>"+
                                                 "<a class='dropdown-item' href='#'>História</a>"+
                                             "</div>"+
                                         "</li>"+
