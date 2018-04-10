@@ -1,3 +1,44 @@
+$(".matilau-cabecera").append(
+    "<header class='header_area clearfix'><div class='container-fluid h-100'><div class='row h-100'><div class='col-12 h-100'><div class='menu_area h-100'><nav class='navbar h-100 navbar-expand-lg align-items-center'>"+
+                                "<!-- Logo --> <a class='navbar-brand' href='index.html'><img src='img/Logo.png' alt='logo'></a>"+
+                                "<!-- Menu Area --> <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#matilau-navbar' aria-controls='matilau-navbar' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button> <div class='collapse navbar-collapse justify-content-end' id='matilau-navbar'>"+
+                                    
+                                
+                                    "<ul class='navbar-nav animated' id='nav'>"+
+                                        "<li class='nav-item active'><a class='nav-link' href='index.html'>Inicio</a></li>"+
+                                        "<li class='nav-item dropdown'>"+
+                                            "<a class='nav-link dropdown-toggle' href='#' id='matilauDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Lore</a>"+
+                                            "<div class='dropdown-menu matilauDropdown'>"+
+                                                "<a class='dropdown-item' href='#'>Los Entes</a>"+
+                                                "<a class='dropdown-item' href='#'>Los Vivos</a>"+
+                                                "<a class='dropdown-item' href='#'>Prologo</a>"+
+                                                "<div class='dropdown-divider'></div>"+
+                                                "<a class='dropdown-item' href='#'>História</a>"+
+                                            "</div>"+
+                                        "</li>"+
+                                        "<li class='nav-item'><a class='nav-link' href='#'>Nosotros</a></li>"+
+                                        "<li class='nav-item'><a class='nav-link' href='#'>Galeria de Imágenes</a></li>"+
+                                        "<li class='nav-item'><a class='nav-link' href='#'>Contacto</a></li>"+
+
+                                        
+    "</ul></div></nav></div></div></div></div></header>"
+);
+
+$(".matilau-pie").append(
+    "<footer class='footer-area clearfix'><div class='footer-bottom-area'><div class='container h-100'><div class='row h-100'><div class='col-12 h-100'><div class='footer-bottom-content h-100 d-md-flex justify-content-between align-items-center'>" +
+                                    "<div class='copyright-text'><p>Copyright &copy; 2018 All rights reserved | This page is made by <a href='http://lmgtfy.com/?q=porno%20gay%20entre%20viejos' target='_blank'>Tu puta madre en una bicicleta sin asiento.</a></p></div>"+
+                                    "<div class='footer-social-info'>"+
+                                        "<a href='#'><i class='fa fa-pinterest' aria-hidden='true'></i></a>"+
+                                        "<a href='#'><i class='fa fa-facebook' aria-hidden='true'></i></a>"+
+                                        "<a href='#'><i class='fa fa-twitter' aria-hidden='true'></i></a>"+
+                                        "<a href='#'><i class='fa fa-dribbble' aria-hidden='true'></i></a>"+
+                                        "<a href='#'><i class='fa fa-behance' aria-hidden='true'></i></a>"+
+                                        "<a href='#'><i class='fa fa-linkedin' aria-hidden='true'></i></a>"+
+    "</div></div></div></div></div></div></footer>"
+);
+
+
+
 (function ($) {
     'use strict';
 
