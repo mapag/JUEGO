@@ -216,10 +216,10 @@ img {
     z-index: 999999;
 }
 
-.mosh-preloader {
+.matilau-preloader {
     overflow: hidden;
-    -webkit-animation: 3000ms linear 0s normal none infinite running mosh-preloader;
-    animation: 3000ms linear 0s normal none infinite running mosh-preloader;
+    -webkit-animation: 3000ms linear 0s normal none infinite running matilau-preloader;
+    animation: 3000ms linear 0s normal none infinite running matilau-preloader;
     background-color: transparent;
     border-color: #f1f2f3 #f1f2f3 #4a7aec;
     border-radius: 50%;
@@ -233,7 +233,7 @@ img {
     z-index: 9;
 }
 
-@-webkit-keyframes mosh-preloader {
+@-webkit-keyframes matilau-preloader {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -244,7 +244,7 @@ img {
     }
 }
 
-@keyframes mosh-preloader {
+@keyframes matilau-preloader {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -269,7 +269,7 @@ img {
     box-shadow: 2px 10px 8px rgba(0, 0, 0, 0.15);
 }
 
-.mosh-table {
+.matilau-table {
     display: table;
     height: 100%;
     left: 0;
@@ -279,7 +279,7 @@ img {
     z-index: 2;
 }
 
-.mosh-table-cell {
+.matilau-table-cell {
     display: table-cell;
     vertical-align: middle;
 }
@@ -310,7 +310,7 @@ img {
     font-weight: 500;
 }
 
-.mosh-btn {
+.matilau-btn {
     background-color: #4a7aec;
     min-width: 150px;
     height: 54px;
@@ -325,7 +325,7 @@ img {
     transition-duration: 500ms;
 }
 
-.mosh-btn:hover {
+.matilau-btn:hover {
     background-color: #1a3c8d;
     color: #fff;
 }
@@ -541,7 +541,7 @@ img {
 :: 4.0 Service Area
 ------------------------- */
 
-.mosh-service-slides {
+.matilau-service-slides {
     position: relative;
     z-index: 1;
 }
@@ -555,7 +555,7 @@ img {
     color: #bec0cc;
 }
 
-.mosh-service-slides .center .single-service-area h2,
+.matilau-service-slides .center .single-service-area h2,
 .single-service-area:hover h2 {
     color: #4a7aec;
 }
@@ -564,8 +564,8 @@ img {
     margin-bottom: 20px;
 }
 
-.mosh-service-slides .owl-prev,
-.mosh-service-slides .owl-next {
+.matilau-service-slides .owl-prev,
+.matilau-service-slides .owl-next {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -581,7 +581,7 @@ img {
     transition-duration: 500ms;
 }
 
-.mosh-service-slides .owl-next {
+.matilau-service-slides .owl-next {
     left: auto;
     right: -25px;
 }
@@ -599,7 +599,7 @@ img {
 :: 6.0 Features Area
 ------------------------- */
 
-.mosh-features-area {
+.matilau-features-area {
     background-color: #211b31;
     position: relative;
     z-index: 1;
@@ -613,11 +613,11 @@ img {
     z-index: 9;
 }
 
-.mosh-features-area .section-heading {
+.matilau-features-area .section-heading {
     margin-bottom: 60px;
 }
 
-.mosh-features-area .section-heading h2 {
+.matilau-features-area .section-heading h2 {
     color: #fff;
 }
 
@@ -811,12 +811,12 @@ img {
     top: -100px;
 }
 
-.mosh-workflow-slides .owl-dots {
+.matilau-workflow-slides .owl-dots {
     margin-top: 60px;
     text-align: center;
 }
 
-.mosh-workflow-slides .owl-dot {
+.matilau-workflow-slides .owl-dot {
     background-color: #daddeb;
     width: 8px;
     height: 8px;
@@ -825,7 +825,7 @@ img {
     display: inline-block;
 }
 
-.mosh-workflow-slides .owl-dot.active {
+.matilau-workflow-slides .owl-dot.active {
     background-color: #4a7aec;
 }
 
@@ -833,7 +833,7 @@ img {
 :: 10.0 CTA Area
 ------------------------- */
 
-.mosh-call-to-action-area {
+.matilau-call-to-action-area {
     position: relative;
     z-index: 1;
     background-attachment: fixed;
@@ -1010,7 +1010,7 @@ span.accor-open {
 :: 13.0 Breadcumb CSS
 -------------------- */
 
-.mosh-breadcumb-area {
+.matilau-breadcumb-area {
     height: 500px;
     width: 100%;
     position: relative;
@@ -1046,7 +1046,7 @@ span.accor-open {
     overflow-x: hidden;
 }
 
-.mosh-about-us-content .section-heading {
+.matilau-about-us-content .section-heading {
     margin-bottom: 50px;
 }
 
@@ -1197,13 +1197,13 @@ span.accor-open {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
 }
 
-.mosh-team-slides {
+.matilau-team-slides {
     position: relative;
     z-index: 2;
 }
 
-.mosh-team-slides .owl-prev,
-.mosh-team-slides .owl-next {
+.matilau-team-slides .owl-prev,
+.matilau-team-slides .owl-next {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -1219,12 +1219,12 @@ span.accor-open {
     transition-duration: 500ms;
 }
 
-.mosh-team-slides .owl-next {
+.matilau-team-slides .owl-next {
     left: auto;
     right: -25px;
 }
 
-.mosh-subscribe-newsletter-area {
+.matilau-subscribe-newsletter-area {
     background-attachment: fixed;
 }
 
@@ -1284,13 +1284,13 @@ span.accor-open {
 :: 17.0 Clients Area
 ------------------------- */
 
-.mosh-clients-testimonials-area {
+.matilau-clients-testimonials-area {
     background-color: #211b31;
     position: relative;
     z-index: 1;
 }
 
-.mosh-clients-testimonials-area .section-heading h2 {
+.matilau-clients-testimonials-area .section-heading h2 {
     color: #fff;
 }
 
@@ -1460,15 +1460,15 @@ span.accor-open {
     }
 }
 
-.mosh-cool-facts-area.service-page {
+.matilau-cool-facts-area.service-page {
     width: 100%;
     position: relative;
     z-index: 1;
     height: 500px;
 }
 
-.mosh-cool-facts-area.service-page .counter-area h3,
-.mosh-cool-facts-area.service-page .cool-facts-content p {
+.matilau-cool-facts-area.service-page .counter-area h3,
+.matilau-cool-facts-area.service-page .cool-facts-content p {
     color: #fff;
 }
 
@@ -1533,7 +1533,7 @@ span.accor-open {
     margin-bottom: 40px;
 }
 
-.mosh-pagination-area .page-link {
+.matilau-pagination-area .page-link {
     padding: 0;
     line-height: 42px;
     color: #007bff;
@@ -1684,44 +1684,44 @@ span.accor-open {
     font-size: 24px;
 }
 
-.mosh-btn.mosh-btn-2 {
+.matilau-btn.matilau-btn-2 {
     border: 2px solid #4a7aec;
     color: #404551;
     background-color: #fff;
 }
 
-.mosh-btn.mosh-btn-2:hover,
-.mosh-btn.mosh-btn-2:focus {
+.matilau-btn.matilau-btn-2:hover,
+.matilau-btn.matilau-btn-2:focus {
     border: 2px solid #4a7aec;
     color: #fff;
     background-color: #4a7aec;
 }
 
-.mosh-btn.mosh-btn-3 {
+.matilau-btn.matilau-btn-3 {
     border: none;
     color: #404551;
     background-color: #fff;
     box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
 }
 
-.mosh-btn.mosh-btn-3:hover,
-.mosh-btn.mosh-btn-3:focus {
+.matilau-btn.matilau-btn-3:hover,
+.matilau-btn.matilau-btn-3:focus {
     color: #fff;
     background-color: #4a7aec;
 }
 
-.mosh-cool-facts-area {
+.matilau-cool-facts-area {
     width: 100%;
 }
 
-.mosh-cool-facts-area .counter-area > h3 {
+.matilau-cool-facts-area .counter-area > h3 {
     color: #4a7aec;
     font-size: 60px;
     margin-bottom: 0;
     line-height: 1;
 }
 
-.mosh-cool-facts-area .cool-facts-content > p {
+.matilau-cool-facts-area .cool-facts-content > p {
     color: #292d4f;
 }
 

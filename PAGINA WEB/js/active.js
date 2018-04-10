@@ -15,7 +15,7 @@
     }
 
     if ($.fn.owlCarousel) {
-        $(".mosh-service-slides").owlCarousel({
+        $(".matilau-service-slides").owlCarousel({
             items: 3,
             loop: true,
             autoplay: true,
@@ -41,7 +41,7 @@
     }
 
     if ($.fn.owlCarousel) {
-        $(".mosh-workflow-slides").owlCarousel({
+        $(".matilau-workflow-slides").owlCarousel({
             items: 3,
             loop: true,
             autoplay: true,
@@ -65,7 +65,7 @@
     }
 
     if ($.fn.owlCarousel) {
-        $(".mosh-team-slides").owlCarousel({
+        $(".matilau-team-slides").owlCarousel({
             items: 3,
             loop: true,
             autoplay: true,
@@ -145,7 +145,7 @@
     }
 
     if ($.fn.imagesLoaded) {
-        $('.mosh-portfolio').imagesLoaded(function () {
+        $('.matilau-portfolio').imagesLoaded(function () {
             // filter items on button click
             $('.portfolio-menu').on('click', 'p', function () {
                 var filterValue = $(this).attr('data-filter');
@@ -154,7 +154,7 @@
                 });
             });
             // init Isotope
-            var $grid = $('.mosh-portfolio').isotope({
+            var $grid = $('.matilau-portfolio').isotope({
                 itemSelector: '.single_gallery_item',
                 percentPosition: true,
                 masonry: {
