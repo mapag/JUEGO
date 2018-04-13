@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a, a:hover, a:focus, a:active {
+    color: silver;
     font-weight: 700;
     text-decoration: none;
     -webkit-transition-duration: 500ms;
@@ -73,6 +74,22 @@ img {
     background-image: url("../img/Fondo_1.png"); 
     background-size: 100% 100%;
 }
+
+.fondo-2{
+    background-image: url("../img/Fondo_2.jpg"); 
+    background-size: 100% 100%;
+}
+
+.fondo-2 a, .fondo-2 h1, .fondo-2 h2, .fondo-2 h3, .fondo-2 h4, .fondo-2 h5, .fondo-2 h6, .fondo-2 p{
+    color: black;
+}
+
+.trans-NaT{
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(to bottom, black, transparent);
+}
+
 
 #preloader {
     overflow: hidden;
@@ -118,7 +135,7 @@ img {
     right: 30px;
     width: 40px;
     background: #4a7aec;
-    color: #fff;
+    color: silver;
     text-align: center;
     height: 40px;
     line-height: 38px;
@@ -147,7 +164,6 @@ img {
 
 .section-heading p {
     font-weight: 700;
-    color: silver;
     font-size: 30px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -161,7 +177,6 @@ img {
 
 .section-heading > h5 {
     font-size: 25px;
-    color: silver;
     line-height: 1.8;
     font-weight: 500;
 }
@@ -173,17 +188,16 @@ img {
 
 .section-centrado p{
     font-size: 20px;
-    color: silver;
     font-weight: 600;
 }
 
 .matilau-btn {
-    background-color: #4a7aec;
+    background-color: silver;
     min-width: 150px;
     height: 54px;
     padding: 0 30px;
     border-radius: 70px;
-    color: #fff;
+    color: silver;
     font-size: 14px;
     line-height: 54px;
     font-weight: 700;
@@ -193,8 +207,8 @@ img {
 }
 
 .matilau-btn:hover {
-    background-color: #1a3c8d;
-    color: #fff;
+    background-color: blue;
+    color: silver;
 }
 
 .bg-overlay,
@@ -247,7 +261,6 @@ img {
 }
 
 .menu_area #nav .nav-link {
-    color: silver;
     display: block;
     font-size: 20px;
     transition-duration: 500ms;
@@ -261,9 +274,9 @@ img {
 }
 
 .menu_area .dropdown-item {
+    color: silver;
     font-size: 15px;
     font-weight: 700;
-    color: silver;
 }
 .menu_area .dropdown-item:hover{
     color:black;
@@ -341,20 +354,18 @@ img {
 
 .hero-slide-content h2 {
     font-size: 60px;
-    color: silver;
     line-height: 1.8;
     text-shadow: 1px 1px 3px orange;
 }
 
 .hero-slide-content h4 {
-    color: silver;
     font-weight: 400;
     margin-bottom: 0;
     text-shadow: 1px 1px 3px orange;
 }
 
 .hero-slide-content .slide-img {
-    color: #fff;
+    color: silver;
     margin-top: 100px;
     font-weight: 400;
 }
@@ -373,7 +384,7 @@ img {
     margin-top: -30px;
     left: 50px;
     border-radius: 50%;
-    color: #a2baff;
+    color: silver;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -405,7 +416,7 @@ img {
     margin-bottom: 20px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    color: #bec0cc;
+    color: silver;
 }
 
 .matilau-service-slides .center .single-service-area h2,
@@ -429,7 +440,7 @@ img {
     margin-top: -30px;
     left: -25px;
     border-radius: 50%;
-    color: #a2baff;
+    color: silver;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -453,7 +464,7 @@ img {
 ------------------------- */
 
 .matilau-features-area {
-    background-color: #211b31;
+    background-color: black;
     position: relative;
     z-index: 1;
 }
@@ -609,12 +620,10 @@ img {
 }
 
 .port-hover-text h4 {
-    color: #fff;
     margin-bottom: 10px;
 }
 
 .port-hover-text > a {
-    color: #fff;
     font-size: 15px;
 }
 
@@ -651,7 +660,6 @@ img {
 
 .single-workflow-area:hover h2 {
     background-color: #4a7aec;
-    color: #fff;
 }
 
 .workflow-slides-area {
@@ -697,7 +705,7 @@ img {
 ------------------------- */
 
 .panel {
-    background-color: #fff;
+    background-color: silver;
     border: 0 solid transparent;
     border-radius: 4px;
     box-shadow: 0 0 0 transparent;
@@ -711,7 +719,6 @@ img {
 .single-accordion h6 a {
     background-color: #4a7aec;
     border-radius: 0;
-    color: #fff;
     display: block;
     margin: 0;
     font-weight: 400;
@@ -723,7 +730,6 @@ img {
 
 .single-accordion h6 a.collapsed {
     background-color: #4a7aec;
-    color: #fff;
 }
 
 .single-accordion h6 a span {
@@ -778,7 +784,6 @@ span.accor-open {
 }
 
 .single-footer-widget h5 {
-    color: #fff;
     margin-bottom: 50px;
 }
 
@@ -794,7 +799,7 @@ span.accor-open {
 }
 
 .single-footer-widget ul > li > a:hover {
-    color: #ffffff;
+    color: silver;
 }
 
 .copyright-text > p {
@@ -803,14 +808,14 @@ span.accor-open {
 }
 
 .footer-social-info > a {
-    color: #abadbe;
+    color: silver;
     padding: 0 15px;
     display: inline-block;
     font-size: 13px;
 }
 
 .footer-social-info > a:hover {
-    color: #fff;
+    color: silver;
 }
 
 .footer-single--blog-post {
@@ -837,7 +842,7 @@ span.accor-open {
 
 .footer-single--blog-post .blog-post-date > p:hover,
 .footer-single--blog-post .blog-post-title > h6:hover {
-    color: #4a7aec;
+    color: silver;
 }
 
 .footer-single-contact-info .contact-icon {
@@ -899,7 +904,6 @@ span.accor-open {
 }
 
 .ceo-meta-data .ceo-name h6 {
-    color: #fff;
     margin-bottom: 10px;
     line-height: 1;
 }
@@ -980,7 +984,7 @@ span.accor-open {
 .team-meta-info span {
     font-size: 12px;
     font-weight: 900;
-    color: #abadbe;
+    color: silver;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 35px;
@@ -995,14 +999,14 @@ span.accor-open {
 
 .team-social-info > a {
     font-size: 13px;
-    color: #abadbe;
+    color: silver;
     display: inline-block;
     padding: 0 15px;
 }
 
 .single-team-slide:hover .team-meta-info span,
 .team-social-info > a:hover {
-    color: #4a7aec;
+    color: black;
 }
 
 .single-team-slide:hover .team-thumbnail:after {
@@ -1027,7 +1031,7 @@ span.accor-open {
     margin-top: -30px;
     left: -25px;
     border-radius: 50%;
-    color: #a2baff;
+    color: silver;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -1066,7 +1070,7 @@ span.accor-open {
     padding: 0 30px;
     font-style: italic;
     font-size: 14px;
-    color: #abadbe;
+    color: silver;
 }
 
 .subscribe-newsletter-content form > button {
@@ -1076,8 +1080,8 @@ span.accor-open {
     border: none;
     padding: 0 30px;
     font-size: 14px;
-    color: #fff;
-    background-color: #4a7aec;
+    color: silver;
+    background-color: black;
     position: absolute;
     right: 20%;
     font-weight: 700;
@@ -1089,7 +1093,7 @@ span.accor-open {
 }
 
 .subscribe-newsletter-content form > button:hover {
-    color: #fff;
+    color: silver;
     background-color: rgb(16, 54, 145);
 }
 
@@ -1106,7 +1110,7 @@ span.accor-open {
 
 .testimonial-content span {
     font-size: 60px;
-    color: #fff;
+    color: silver;
     line-height: 1;
     font-weight: 900;
 }
@@ -1129,7 +1133,7 @@ span.accor-open {
 }
 
 .testimonials-meta > h6 {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(192, 192, 192, 0.5);
     margin-bottom: 5px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -1157,7 +1161,7 @@ span.accor-open {
     left: 0;
     z-index: -5;
     height: 100%;
-    color: #fff;
+    color: silver;
 }
 
 .testimonials-slides:after {
@@ -1169,7 +1173,7 @@ span.accor-open {
     right: 0;
     z-index: -5;
     height: 100%;
-    color: #fff;
+    color: silver;
 }
 
 .testimonials-slides .owl-prev,
@@ -1184,7 +1188,7 @@ span.accor-open {
     margin-top: -30px;
     left: -25px;
     border-radius: 50%;
-    color: #a2baff;
+    color: silver;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -1200,11 +1204,6 @@ span.accor-open {
 
 .testimonials-slides .center .single-testimonial-area .testimonial-content {
     display: block;
-}
-
-.single-testimonial-area:hover .testimonials-meta > h6,
-.testimonials-slides .center .single-testimonial-area .testimonials-meta > h6 {
-    color: #fff;
 }
 
 .single-testimonial-area:hover .testimonials-meta .testimonial-thumb {
@@ -1279,7 +1278,6 @@ span.accor-open {
 
 .matilau-cool-facts-area.service-page .counter-area h3,
 .matilau-cool-facts-area.service-page .cool-facts-content p {
-    color: silver;
 }
 
 .skills-text > p {
@@ -1317,24 +1315,22 @@ span.accor-open {
 }
 
 .post-meta h6 {
-    color: #b1b3c3;
     text-transform: capitalize;
     margin-bottom: 0;
     font-size: 12px;
 }
 
 .post-meta h6 a {
-    color: #b1b3c3;
     display: inline-block;
     margin-right: 5px;
 }
 
 .post-meta h6 a:hover {
-    color: #4a7aec;
+    color: black;
 }
 
 .single-blog > a {
-    color: #6270ff;
+    color: black;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -1373,7 +1369,7 @@ span.accor-open {
     border-left: none;
     border-radius: 0;
     border-right: none;
-    border-bottom: 2px solid #e6e7f4;
+    border-bottom: 2px solid silver;
 }
 
 .blog-post-search-widget form > button {
@@ -1399,7 +1395,6 @@ span.accor-open {
 
 .blog-post-archives ul > li > a,
 .blog-post-categories ul > li > a {
-    color: #abadbe;
     font-size: 15px;
     display: block;
     padding: 5px 0;
@@ -1448,7 +1443,7 @@ span.accor-open {
 
 .contact-form-area .form-control {
     font-size: 12px;
-    color: #cbcddc;
+    color: silver;
     background-color: transparent;
     border-top: none;
     border-left: none;
@@ -1471,7 +1466,6 @@ span.accor-open {
 }
 
 .contact-social-info > a {
-    color: #cbcddc;
     padding: 0 10px;
     display: inline-block;
 }
@@ -1503,20 +1497,20 @@ span.accor-open {
 .matilau-btn.matilau-btn-2:hover,
 .matilau-btn.matilau-btn-2:focus {
     border: 2px solid #4a7aec;
-    color: #fff;
+    color: silver;
     background-color: #4a7aec;
 }
 
 .matilau-btn.matilau-btn-3 {
     border: none;
     color: #404551;
-    background-color: #fff;
+    background-color: silver;
     box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
 }
 
 .matilau-btn.matilau-btn-3:hover,
 .matilau-btn.matilau-btn-3:focus {
-    color: #fff;
+    color: silver;
     background-color: #4a7aec;
 }
 

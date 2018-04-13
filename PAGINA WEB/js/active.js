@@ -4,8 +4,8 @@ $(".matilau-cabecera").append(
                                 "<!-- Menu Area --> <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#matilau-navbar' aria-controls='matilau-navbar' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button> <div class='collapse navbar-collapse justify-content-end' id='matilau-navbar'>"+
                                     
                                 
-                                    "<ul class='navbar-nav animated' id='nav'>"+
-                                        "<li class='nav-item active'><a class='nav-link' href='index.html'>Inicio</a></li>"+
+                                    "<ul class='navbar-nav' id='nav'>"+
+                                        "<li class='nav-item'><a class='nav-link' href='index.html'>Inicio</a></li>"+
                                         "<li class='nav-item dropdown'>"+
                                             "<a class='nav-link dropdown-toggle' href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Lore</a>"+
                                             "<div class='dropdown-menu matilauDropdown'>"+
