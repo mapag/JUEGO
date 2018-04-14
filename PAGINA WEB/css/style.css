@@ -90,6 +90,12 @@ img {
     background: linear-gradient(to bottom, black, transparent);
 }
 
+.trans-TaN{
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(to top, black, transparent);
+}
+
 
 #preloader {
     overflow: hidden;
